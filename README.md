@@ -1,1 +1,1 @@
-# music-genre-prediction
+# music-prediction
