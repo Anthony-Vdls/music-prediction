@@ -1,8 +1,3 @@
-######
-# MTH 3270
-# Project 3
-######
-
 # import neccecery libraries
 library(dplyr)
 library(ggplot2)
@@ -19,16 +14,16 @@ library(tibble)
 library(mclust)
 
 # read the data in from CSV
-dir <- "~/Documents/MSU/MTH_3270/projects/project_03/data/full_music_data.csv"
+dir <- "./data/full_music_data.csv"
 full_music_data  <- read.csv(dir, header = TRUE, sep = ",")
 
-dir <- "~/Documents/MSU/MTH_3270/projects/project_03/data/influence_data.csv"
+dir <- "./data/influence_data.csv"
 influence_data <- read.csv(dir, header = TRUE, sep = ",")
 
-dir <- "~/Documents/MSU/MTH_3270/projects/project_03/data/data_by_artist.csv"
+dir <- "./data/data_by_artist.csv"
 by_artist <- read.csv(dir, header = TRUE, sep = ",")
 
-dir <- "~/Documents/MSU/MTH_3270/projects/project_03/data/data_by_year.csv"
+dir <- "./data/data_by_year.csv"
 by_year <- read.csv(dir, header = TRUE, sep = ",")
 
 # Join data tables and clean up columns
